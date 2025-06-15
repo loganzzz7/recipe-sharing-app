@@ -1,0 +1,13 @@
+.loginHeader {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.loginForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}

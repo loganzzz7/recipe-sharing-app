@@ -1,0 +1,22 @@
+.deleteRecipeModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.997);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.deleteRecipeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}

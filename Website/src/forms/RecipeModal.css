@@ -1,0 +1,87 @@
+.addNewRecipeFAB {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;    
+    z-index: 10;
+}
+
+.addNewRecipeModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.997);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modalHeaderAndInput {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.modalHeader {
+    text-align: center;
+    font-size: larger;
+}
+
+.recipeModalInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0rem 2rem;
+    gap: 0.5rem;
+}
+
+.labelImageUpload {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.recipeHealthLabels {
+    display: flex;
+    gap: 1rem;
+}
+
+.recipeHealthLabelsHeader {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+}
+
+.selectors {
+    display: flex;
+}
+
+.displayImages {
+    border: 1px solid #C4C4C4;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.displayImages:hover {
+    border: 1px solid rgba(0, 0, 0, 0.997);
+}
+
+@media (max-width: 450px) {
+    .labelImageUpload {
+        flex-direction: column;
+    }
+    .recipeHealthLabelsHeader p {
+        display: none;
+    }
+    .selectors {
+        flex-direction: column;
+    }
+}

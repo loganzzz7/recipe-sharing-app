@@ -1,0 +1,96 @@
+/* posts */
+.individualPosts {
+    margin: 0rem 1rem;
+    border: 1px solid #E6E6E6;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.individualPosts img {
+    width: 100%;
+}
+
+.username {
+    padding: 1rem 0rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+/* icons below post */
+.postIcons {
+    padding: 0 0.5rem;
+}
+
+.likeEditDeleteIcons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+/* likes */
+.likes {
+    font-size: smaller;
+    font-weight: bold;
+    padding-left: 1rem;
+    /* padding-top: 0.5rem; */
+}
+
+.tags {
+    font-size: smaller;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+/* caption */
+.postCaption {
+    padding-top: 0.25rem;
+    padding-left: 1rem;
+    color: #010000;
+}
+.postCaption, .postUsername {
+    font-size: small;
+}
+.postUsername {
+    font-weight: bold;
+}
+.postCaption .tags {
+    color: #113568;
+}
+
+.ingredients {
+    padding-left: 1rem;
+}
+
+.cookGuide {
+    padding-left: 1rem;
+}
+
+.cuisineAndPrepTime {
+    padding-left: 1rem;
+}
+
+/* addcomment */
+.addComment {
+    border-top: 1px solid #EFEFEF;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.commentInput {
+    border: none;
+    flex-grow: 1;
+    width: 100%;
+    outline: none;
+    padding: 0.5rem 0;
+}
+.commentInput::placeholder {
+    font-size: small;
+    color: #9C9C9B;
+} 
